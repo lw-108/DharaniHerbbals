@@ -1,0 +1,1843 @@
+[
+  {
+    "id": 1,
+    "name": "MULTHANI METTI JAR",
+    "category": "SKIN",
+    "brand": "MAKIL",
+    "productType": "Best Selling"
+  },
+  {
+    "id": 2,
+    "name": "BLACK TEA (G)",
+    "category": "BEVERAGES",
+    "brand": "VEDAN AMUTHU",
+    "productType": "Popular"
+  },
+  {
+    "id": 3,
+    "name": "THUVALAI POWDER",
+    "category": "HEALTH & WELLNESS",
+    "brand": "MAKIL",
+    "productType": "Trending"
+  },
+  {
+    "id": 4,
+    "name": "AVARAMPOO BABY SHAMPOO",
+    "category": "BABY",
+    "brand": "MAKIL",
+    "productType": "Trending"
+  },
+  {
+    "id": 5,
+    "name": "AVARAMPOO PUSU MANJAL JAR",
+    "category": "SKIN",
+    "brand": "MAKIL",
+    "productType": "Hot"
+  },
+  {
+    "id": 6,
+    "name": "Aavaram Flower Tea",
+    "category": "BEVERAGES",
+    "brand": "VEDAN AMUTHU",
+    "productType": "Popular"
+  },
+  {
+    "id": 7,
+    "name": "ALOE VERA FACEPACK POWDER JAR (For Men)",
+    "category": "SKIN",
+    "brand": "MAKIL",
+    "productType": "Hot"
+  },
+  {
+    "id": 8,
+    "name": "FACEPACK POWDER JAR 100G",
+    "category": "SKIN",
+    "brand": "MAKIL",
+    "productType": "Best Selling"
+  },
+  {
+    "id": 9,
+    "name": "COCONUT MILK SOAP",
+    "category": "BODY",
+    "brand": "VEDAN",
+    "productType": "deals"
+  },
+  {
+    "id": 10,
+    "name": "MULTHANI METTI SOAP",
+    "category": "BODY",
+    "brand": "VEDAN",
+    "productType": "deals"
+  },
+  {
+    "id": 11,
+    "name": "Guava Leaf Tea",
+    "category": "BEVERAGES",
+    "brand": "VEDAN AMUTHU",
+    "productType": "Popular"
+  },
+  {
+    "id": 12,
+    "name": "NALANGU POWDER JAR",
+    "category": "SKIN",
+    "brand": "MAKIL",
+    "productType": "Best Selling"
+  },
+  {
+    "id": 13,
+    "name": "ROSE SOAP",
+    "category": "BODY",
+    "brand": "VEDAN",
+    "productType": "Hot"
+  },
+  {
+    "id": 14,
+    "name": "KUPPAIMENI SOAP",
+    "category": "BODY",
+    "brand": "VEDAN",
+    "productType": "Popular"
+  },
+  {
+    "id": 15,
+    "name": "Green Gram Soap",
+    "category": "BODY",
+    "brand": "VEDAN",
+    "productType": "Popular"
+  },
+  {
+    "id": 16,
+    "name": "AVARAMPOO TURMERIC SOAP",
+    "category": "BODY",
+    "brand": "VEDAN",
+    "productType": "Popular"
+  },
+  {
+    "id": 17,
+    "name": "ALOE VERA SOAP",
+    "category": "BODY",
+    "brand": "VEDAN",
+    "productType": "Popular"
+  },
+  {
+    "id": 18,
+    "name": "CLAY SOAP",
+    "category": "BODY",
+    "brand": "VEDAN",
+    "productType": "Popular"
+  },
+  {
+    "id": 19,
+    "name": "RED SANDAL SOAP",
+    "category": "BODY",
+    "brand": "VEDAN",
+    "productType": "Popular"
+  },
+  {
+    "id": 20,
+    "name": "GOAT MILK SOAP",
+    "category": "BODY",
+    "brand": "VEDAN",
+    "productType": "Popular"
+  },
+  {
+    "id": 21,
+    "name": "AVARAMPOO BABY SOAP",
+    "category": "BABY",
+    "brand": "VEDAN",
+    "productType": "Hot"
+  },
+  {
+    "id": 22,
+    "name": "PAPAYA SOAP",
+    "category": "BODY",
+    "brand": "VEDAN",
+    "productType": "Hot"
+  },
+  {
+    "id": 23,
+    "name": "CHARCOAL SOAP",
+    "category": "BODY",
+    "brand": "VEDAN",
+    "productType": "Popular"
+  },
+  {
+    "id": 24,
+    "name": "NALANGU MAAVU SOAP",
+    "category": "BODY",
+    "brand": "VEDAN",
+    "productType": "Popular"
+  },
+  {
+    "id": 25,
+    "name": "Hibiscus Herbal Hair Oil",
+    "category": "HAIR",
+    "brand": "MAKIL",
+    "productType": "Hot"
+  },
+  {
+    "id": 26,
+    "name": "AVARMPOO HAIR WASH POWDER (NR)",
+    "category": "HAIR",
+    "brand": "MAKIL",
+    "productType": "deals"
+  },
+  {
+    "id": 27,
+    "name": "VETTIVER SOAP",
+    "category": "BODY",
+    "brand": "VEDAN",
+    "productType": "deals"
+  },
+  {
+    "id": 28,
+    "name": "Hibiscus Shampoo",
+    "category": "HAIR",
+    "brand": "MAKIL",
+    "productType": "Best Selling"
+  },
+  {
+    "id": 29,
+    "name": "HIBISCUS HAIRWASH POWDER",
+    "category": "HAIR",
+    "brand": "MAKIL",
+    "productType": "Popular"
+  },
+  {
+    "id": 30,
+    "name": "Karisalankanni Shampoo",
+    "category": "HAIR",
+    "brand": "MAKIL",
+    "productType": "Popular"
+  },
+  {
+    "id": 31,
+    "name": "ALOE VERA SHAMPOO",
+    "category": "HAIR",
+    "brand": "MAKIL",
+    "productType": "deals"
+  },
+  {
+    "id": 32,
+    "name": "VETTIVER SHAMPOO",
+    "category": "HAIR",
+    "brand": "MAKIL",
+    "productType": "Trending"
+  },
+  {
+    "id": 33,
+    "name": "NEEM SOAP",
+    "category": "BODY",
+    "brand": "VEDAN",
+    "productType": "Popular"
+  },
+  {
+    "id": 34,
+    "name": "ARAPPU SHAMPOO",
+    "category": "HAIR",
+    "brand": "MAKIL",
+    "productType": "Popular"
+  },
+  {
+    "id": 35,
+    "name": "KARISALANKANNI HAIR OIL",
+    "category": "HAIR",
+    "brand": "MAKIL",
+    "productType": "Popular"
+  },
+  {
+    "id": 36,
+    "name": "Dr. AMLA SHAMPOO",
+    "category": "HAIR",
+    "brand": "MAKIL",
+    "productType": "Popular"
+  },
+  {
+    "id": 37,
+    "name": "KARUVELAM TOOTH POWDER",
+    "category": "HEALTH & WELLNESS",
+    "brand": "MAKIL",
+    "productType": "Trending"
+  },
+  {
+    "id": 38,
+    "name": "ONION SHAMPOO",
+    "category": "HAIR",
+    "brand": "MAKIL",
+    "productType": "Trending"
+  },
+  {
+    "id": 39,
+    "name": "Thirikadugu Tea",
+    "category": "BEVERAGES",
+    "brand": "VEDAN AMUTHU",
+    "productType": "Popular"
+  },
+  {
+    "id": 40,
+    "name": "Herbal Tea Powder",
+    "category": "BEVERAGES",
+    "brand": "VEDAN AMUTHU",
+    "productType": "Trending"
+  },
+  {
+    "id": 41,
+    "name": "TULSI TEA (G)",
+    "category": "BEVERAGES",
+    "brand": "VEDAN AMUTHU",
+    "productType": "Popular"
+  },
+  {
+    "id": 42,
+    "name": "Nannari Sherbet",
+    "category": "BEVERAGES",
+    "brand": "VEDAN AMUTHU",
+    "productType": "Popular"
+  },
+  {
+    "id": 43,
+    "name": "BALLOON PLANT (MUTAKKATRAN) OIL",
+    "category": "HEALTH & WELLNESS",
+    "brand": "MAKIL",
+    "productType": "Hot"
+  },
+  {
+    "id": 44,
+    "name": "Dry Ginger Coffee",
+    "category": "BEVERAGES",
+    "brand": "VEDAN AMUTHU",
+    "productType": "Popular"
+  },
+  {
+    "id": 45,
+    "name": "HERBAL TOOTH POWDER",
+    "category": "HEALTH & WELLNESS",
+    "brand": "MAKIL",
+    "productType": "Hot"
+  },
+  {
+    "id": 46,
+    "name": "HIBISCUS (CHEMPARUTHI) TEA POWDER",
+    "category": "BEVERAGES",
+    "brand": "VEDAN AMUTHU",
+    "productType": "Popular"
+  },
+  {
+    "id": 47,
+    "name": "GREEN TEA",
+    "category": "BEVERAGES",
+    "brand": "VEDAN AMUTHU",
+    "productType": "Popular"
+  },
+  {
+    "id": 48,
+    "name": "Thathu Viruthi powder",
+    "category": "HEALTH & WELLNESS",
+    "brand": "MAKIL",
+    "productType": "Trending"
+  },
+  {
+    "id": 49,
+    "name": "ORANGE POWDER JAR",
+    "category": "SKIN",
+    "brand": "MAKIL",
+    "productType": "Popular"
+  },
+  {
+    "id": 50,
+    "name": "Poolan Kilangu Powder",
+    "category": "HEALTH & WELLNESS",
+    "brand": "MAKIL",
+    "productType": "Hot"
+  },
+  {
+    "id": 51,
+    "name": "MAHIL ROSE GEL",
+    "category": "SKIN",
+    "brand": "MAKIL",
+    "productType": "Popular"
+  },
+  {
+    "id": 52,
+    "name": "REDSANDAL POWDER JAR",
+    "category": "SKIN",
+    "brand": "MAKIL",
+    "productType": "Popular"
+  },
+  {
+    "id": 53,
+    "name": "ORANGE POWDER(PO)",
+    "category": "SKIN",
+    "brand": "MAKIL",
+    "productType": "Popular"
+  },
+  {
+    "id": 54,
+    "name": "Vilvam Sherbet",
+    "category": "BEVERAGES",
+    "brand": "VEDAN AMUTHU",
+    "productType": "Popular"
+  },
+  {
+    "id": 55,
+    "name": "Aloe Vera Gel",
+    "category": "SKIN",
+    "brand": "MAKIL",
+    "productType": "Popular"
+  },
+  {
+    "id": 56,
+    "name": "kadukkai Powder (Po)",
+    "category": "HEALTH & WELLNESS",
+    "brand": "MAKIL",
+    "productType": "Popular"
+  },
+  {
+    "id": 57,
+    "name": "KASTHURI MANJAL",
+    "category": "SKIN",
+    "brand": "MAKIL",
+    "productType": "Popular"
+  },
+  {
+    "id": 58,
+    "name": "Wild Turmeric",
+    "category": "SKIN",
+    "brand": "MAKIL",
+    "productType": "Best Selling"
+  },
+  {
+    "id": 59,
+    "name": "REDWINE GEL(JAR)",
+    "category": "SKIN",
+    "brand": "MAKIL",
+    "productType": "Popular"
+  },
+  {
+    "id": 60,
+    "name": "kadukkai Powder Jar",
+    "category": "HEALTH & WELLNESS",
+    "brand": "MAKIL",
+    "productType": "Popular"
+  },
+  {
+    "id": 61,
+    "name": "PIRANDAI PICKLE",
+    "category": "FOOD",
+    "brand": "VEDAN AMUTHU",
+    "productType": "Best Selling"
+  },
+  {
+    "id": 62,
+    "name": "ROSE WATER 100ML",
+    "category": "SKIN",
+    "brand": "MAKIL",
+    "productType": "Popular"
+  },
+  {
+    "id": 63,
+    "name": "MIXED FRUIT JAM",
+    "category": "FOOD",
+    "brand": "VEDAN AMUTHU",
+    "productType": "Popular"
+  },
+  {
+    "id": 64,
+    "name": "PULITHOKKU",
+    "category": "FOOD",
+    "brand": "VEDAN AMUTHU",
+    "productType": "Popular"
+  },
+  {
+    "id": 65,
+    "name": "Sundakkai Thokku",
+    "category": "FOOD",
+    "brand": "VEDAN AMUTHU",
+    "productType": "Popular"
+  },
+  {
+    "id": 66,
+    "name": "Screw Pine Kumkum",
+    "category": "POOJAS",
+    "brand": "MAKIL",
+    "productType": "Popular"
+  },
+  {
+    "id": 67,
+    "name": "LEMON PICKLE (JAR)",
+    "category": "FOOD",
+    "brand": "VEDAN AMUTHU",
+    "productType": "Trending"
+  },
+  {
+    "id": 68,
+    "name": "THIRUMANJANA POWDER (PO)",
+    "category": "POOJAS",
+    "brand": "MAKIL",
+    "productType": "Popular"
+  },
+  {
+    "id": 69,
+    "name": "CURRYLEAF Gravy JAR (NR)",
+    "category": "FOOD",
+    "brand": "VEDAN AMUTHU",
+    "productType": "Popular"
+  },
+  {
+    "id": 70,
+    "name": "Banana Blossom Pickle",
+    "category": "FOOD",
+    "brand": "VEDAN AMUTHU",
+    "productType": "Trending"
+  },
+  {
+    "id": 71,
+    "name": "27 Types of Homa Offerings",
+    "category": "POOJAS",
+    "brand": "NIRAI HOMAM",
+    "productType": "Popular"
+  },
+  {
+    "id": 72,
+    "name": "Banana Stem Pickle Jar",
+    "category": "FOOD",
+    "brand": "VEDAN AMUTHU",
+    "productType": "Popular"
+  },
+  {
+    "id": 73,
+    "name": "AMMAAN Raw rice POWDER(PO)",
+    "category": "SKIN",
+    "brand": "MAKIL",
+    "productType": "Popular"
+  },
+  {
+    "id": 74,
+    "name": "Amla PowderJAR",
+    "category": "HEALTH & WELLNESS",
+    "brand": "MAKIL",
+    "productType": "Popular"
+  },
+  {
+    "id": 75,
+    "name": "Ashwagandha Powder (PO)",
+    "category": "HEALTH & WELLNESS",
+    "brand": "MAKIL",
+    "productType": "Popular"
+  },
+  {
+    "id": 76,
+    "name": "Athimathuram Powder Jar",
+    "category": "HEALTH & WELLNESS",
+    "brand": "MAKIL",
+    "productType": "Popular"
+  },
+  {
+    "id": 77,
+    "name": "Adhatoda POWDER(PO)",
+    "category": "HEALTH & WELLNESS",
+    "brand": "MAKIL",
+    "productType": "Popular"
+  },
+  {
+    "id": 78,
+    "name": "Athimathuram Powder (PO)",
+    "category": "HEALTH & WELLNESS",
+    "brand": "MAKIL",
+    "productType": "Popular"
+  },
+  {
+    "id": 79,
+    "name": "Adhatoda POWDER JAR",
+    "category": "HEALTH & WELLNESS",
+    "brand": "MAKIL",
+    "productType": "Popular"
+  },
+  {
+    "id": 80,
+    "name": "Ashwagandha Powder JAR",
+    "category": "HEALTH & WELLNESS",
+    "brand": "MAKIL",
+    "productType": "deals"
+  },
+  {
+    "id": 81,
+    "name": "SANITARY NAPKINS (NR)",
+    "category": "HEALTH & WELLNESS",
+    "brand": "RAMCARE",
+    "productType": "Popular"
+  },
+  {
+    "id": 82,
+    "name": "Jathikkai Pickle",
+    "category": "FOOD",
+    "brand": "VEDAN AMUTHU",
+    "productType": "Popular"
+  },
+  {
+    "id": 83,
+    "name": "Arugambul Powder Jar",
+    "category": "HEALTH & WELLNESS",
+    "brand": "MAKIL",
+    "productType": "Popular"
+  },
+  {
+    "id": 84,
+    "name": "Arugambul Powder (Po)",
+    "category": "HEALTH & WELLNESS",
+    "brand": "MAKIL",
+    "productType": "Popular"
+  },
+  {
+    "id": 85,
+    "name": "AVARAM FLOWER POWDER JAR",
+    "category": "SKIN",
+    "brand": "MAKIL",
+    "productType": "Popular"
+  },
+  {
+    "id": 86,
+    "name": "Hibiscus Flower Powder",
+    "category": "HAIR",
+    "brand": "MAKIL",
+    "productType": "Popular"
+  },
+  {
+    "id": 87,
+    "name": "Jaathikkai Powder (PO)",
+    "category": "HEALTH & WELLNESS",
+    "brand": "MAKIL",
+    "productType": "Popular"
+  },
+  {
+    "id": 88,
+    "name": "KABASURAKKUDINEER SURANAM(PO)",
+    "category": "HEALTH & WELLNESS",
+    "brand": "MAKIL",
+    "productType": "Popular"
+  },
+  {
+    "id": 89,
+    "name": "ELADHI CHURNAM",
+    "category": "HEALTH & WELLNESS",
+    "brand": "DIVYAM",
+    "productType": "Popular"
+  },
+  {
+    "id": 90,
+    "name": "Jamun Seed Powder (JAR)",
+    "category": "HEALTH & WELLNESS",
+    "brand": "MAKIL",
+    "productType": "Trending"
+  },
+  {
+    "id": 91,
+    "name": "KABA SURAKKUDINEER SURANAM",
+    "category": "HEALTH & WELLNESS",
+    "brand": "MAKIL",
+    "productType": "Popular"
+  },
+  {
+    "id": 92,
+    "name": "Guava Leaf Powder (PO)",
+    "category": "HEALTH & WELLNESS",
+    "brand": "MAKIL",
+    "productType": "Popular"
+  },
+  {
+    "id": 93,
+    "name": "MOOKIRATAI POWDER(PO)",
+    "category": "HEALTH & WELLNESS",
+    "brand": "MAKIL",
+    "productType": "Popular"
+  },
+  {
+    "id": 94,
+    "name": "MUTAKKATRAN POWDER JAR",
+    "category": "HEALTH & WELLNESS",
+    "brand": "MAKIL",
+    "productType": "Popular"
+  },
+  {
+    "id": 95,
+    "name": "BHOOMI SUGAR POWDER (PO)",
+    "category": "HEALTH & WELLNESS",
+    "brand": "MAKIL",
+    "productType": "Popular"
+  },
+  {
+    "id": 96,
+    "name": "Jamun Seed Powder (PO)",
+    "category": "HEALTH & WELLNESS",
+    "brand": "MAKIL",
+    "productType": "Popular"
+  },
+  {
+    "id": 97,
+    "name": "VADHASURA KUDINEER CHURNAM",
+    "category": "HEALTH & WELLNESS",
+    "brand": "MAKIL",
+    "productType": "Popular"
+  },
+  {
+    "id": 98,
+    "name": "Vallarai Powder (PO)",
+    "category": "HEALTH & WELLNESS",
+    "brand": "MAKIL",
+    "productType": "Popular"
+  },
+  {
+    "id": 99,
+    "name": "THUDHUVALAI POWDER JAR",
+    "category": "HEALTH & WELLNESS",
+    "brand": "MAKIL",
+    "productType": "Popular"
+  },
+  {
+    "id": 100,
+    "name": "TRIBALAPODI JAR",
+    "category": "HEALTH & WELLNESS",
+    "brand": "MAKIL",
+    "productType": "Popular"
+  },
+  {
+    "id": 101,
+    "name": "THUTHUVALAI POWDER(PO)",
+    "category": "HEALTH & WELLNESS",
+    "brand": "MAKIL",
+    "productType": "Popular"
+  },
+  {
+    "id": 102,
+    "name": "SIRUKURINJAN POWDER JAR",
+    "category": "HEALTH & WELLNESS",
+    "brand": "MAKIL",
+    "productType": "Popular"
+  },
+  {
+    "id": 103,
+    "name": "Vallarai Powder Jar",
+    "category": "HEALTH & WELLNESS",
+    "brand": "MAKIL",
+    "productType": "Popular"
+  },
+  {
+    "id": 104,
+    "name": "VASAMBU POWDER JAR",
+    "category": "BABY",
+    "brand": "MAKIL",
+    "productType": "deals"
+  },
+  {
+    "id": 105,
+    "name": "SIRUKURINJAN POWDER(PO)",
+    "category": "HEALTH & WELLNESS",
+    "brand": "MAKIL",
+    "productType": "Popular"
+  },
+  {
+    "id": 106,
+    "name": "NILAVEMBU KUDINEER",
+    "category": "HEALTH & WELLNESS",
+    "brand": "MAKIL",
+    "productType": "Hot"
+  },
+  {
+    "id": 107,
+    "name": "VALLARAI IDLY POWDER JAR",
+    "category": "FOOD",
+    "brand": "VEDAN AMUTHU",
+    "productType": "Popular"
+  },
+  {
+    "id": 108,
+    "name": "SHIKAKAI SHAMPOO",
+    "category": "HAIR",
+    "brand": "MAKIL",
+    "productType": "Popular"
+  },
+  {
+    "id": 109,
+    "name": "ORITHAL THAMARAI POWDER(PO)",
+    "category": "HEALTH & WELLNESS",
+    "brand": "MAKIL",
+    "productType": "Trending"
+  },
+  {
+    "id": 110,
+    "name": "Green Gram Flour (Jar)",
+    "category": "SKIN",
+    "brand": "MAKIL",
+    "productType": "Hot"
+  },
+  {
+    "id": 111,
+    "name": "PERUNERUNJIL POWDER JAR",
+    "category": "HEALTH & WELLNESS",
+    "brand": "MAKIL",
+    "productType": "Popular"
+  },
+  {
+    "id": 112,
+    "name": "PAASIPARUPU",
+    "category": "SKIN",
+    "brand": "MAKIL",
+    "productType": "Trending"
+  },
+  {
+    "id": 113,
+    "name": "THULASI POWDER(PO)",
+    "category": "HEALTH & WELLNESS",
+    "brand": "MAKIL",
+    "productType": "Trending"
+  },
+  {
+    "id": 114,
+    "name": "Horse Gram Rice Powder (JAR)",
+    "category": "FOOD",
+    "brand": "VEDAN AMUTHU",
+    "productType": "Hot"
+  },
+  {
+    "id": 115,
+    "name": "Drumstick Leaf Rice Powder Jar",
+    "category": "FOOD",
+    "brand": "VEDAN AMUTHU",
+    "productType": "Trending"
+  },
+  {
+    "id": 116,
+    "name": "THULASI POWDER JAR",
+    "category": "HEALTH & WELLNESS",
+    "brand": "MAKIL",
+    "productType": "Popular"
+  },
+  {
+    "id": 117,
+    "name": "PIRANDAI SADA POWDER JAR",
+    "category": "FOOD",
+    "brand": "VEDAN AMUTHU",
+    "productType": "Trending"
+  },
+  {
+    "id": 118,
+    "name": "PIRANDAI IDLY POWDER JAR",
+    "category": "FOOD",
+    "brand": "VEDAN AMUTHU",
+    "productType": "Popular"
+  },
+  {
+    "id": 119,
+    "name": "ORITHAL THAMARAI POWDER JAR",
+    "category": "HEALTH & WELLNESS",
+    "brand": "MAKIL",
+    "productType": "Hot"
+  },
+  {
+    "id": 120,
+    "name": "MUTTAKATRAN SADA POWDER JAR",
+    "category": "FOOD",
+    "brand": "VEDAN AMUTHU",
+    "productType": "Popular"
+  },
+  {
+    "id": 121,
+    "name": "Fenugreek Powder JAR",
+    "category": "HEALTH & WELLNESS",
+    "brand": "MAKIL",
+    "productType": "deals"
+  },
+  {
+    "id": 122,
+    "name": "PERUNERUNJIL POWDER(PO)",
+    "category": "HEALTH & WELLNESS",
+    "brand": "MAKIL",
+    "productType": "Hot"
+  },
+  {
+    "id": 123,
+    "name": "VANAARASI SHIKAKKAI POWDER (PO)",
+    "category": "HAIR",
+    "brand": "VANA ARASI",
+    "productType": "Popular"
+  },
+  {
+    "id": 124,
+    "name": "GREEN ARAPPU POWDER JAR",
+    "category": "HAIR",
+    "brand": "MAKIL",
+    "productType": "Hot"
+  },
+  {
+    "id": 125,
+    "name": "SUKKU POWDER JAR",
+    "category": "HEALTH & WELLNESS",
+    "brand": "MAKIL",
+    "productType": "Popular"
+  },
+  {
+    "id": 126,
+    "name": "WILD HONEY JAR(NR)",
+    "category": "FOOD",
+    "brand": "VEDAN AMUTHU",
+    "productType": "Popular"
+  },
+  {
+    "id": 127,
+    "name": "Foxtail Millet (thinai rice)",
+    "category": "FOOD",
+    "brand": "ATHIYAMAN",
+    "productType": "Popular"
+  },
+  {
+    "id": 128,
+    "name": "VANA ARASI SHIKAKKAI POWDER (PO)",
+    "category": "HAIR",
+    "brand": "VANA ARASI",
+    "productType": "Trending"
+  },
+  {
+    "id": 129,
+    "name": "WILD HONEYJAR(NR)",
+    "category": "FOOD",
+    "brand": "VEDAN AMUTHU",
+    "productType": "deals"
+  },
+  {
+    "id": 130,
+    "name": "AMUTHAM NATTU CHARKKARAI",
+    "category": "FOOD",
+    "brand": "ATHIYAMAN",
+    "productType": "deals"
+  },
+  {
+    "id": 131,
+    "name": "WILD HONEYJAR(NR)",
+    "category": "FOOD",
+    "brand": "VEDAN AMUTHU",
+    "productType": "Popular"
+  },
+  {
+    "id": 132,
+    "name": "GREEN ARAPPU POWDER 250G",
+    "category": "HAIR",
+    "brand": "MAKIL",
+    "productType": "Popular"
+  },
+  {
+    "id": 133,
+    "name": "MAPPILLAI SAMBA RICE",
+    "category": "FOOD",
+    "brand": "ATHIYAMAN",
+    "productType": "Popular"
+  },
+  {
+    "id": 134,
+    "name": "KARUPPU KAVUNI RICE",
+    "category": "FOOD",
+    "brand": "ATHIYAMAN",
+    "productType": "Popular"
+  },
+  {
+    "id": 135,
+    "name": "OOTY VARKEY",
+    "category": "FOOD",
+    "brand": "VEDAN AMUTHU",
+    "productType": "Best Selling"
+  },
+  {
+    "id": 136,
+    "name": "NILAVEMBU POWDER JAR",
+    "category": "HEALTH & WELLNESS",
+    "brand": "MAKIL",
+    "productType": "deals"
+  },
+  {
+    "id": 137,
+    "name": "Millet Nutritional Mix",
+    "category": "FOOD",
+    "brand": "ATHIYAMAN",
+    "productType": "Hot"
+  },
+  {
+    "id": 138,
+    "name": "THANTRIKKAI POWDER JAR",
+    "category": "HEALTH & WELLNESS",
+    "brand": "MAKIL",
+    "productType": "Popular"
+  },
+  {
+    "id": 139,
+    "name": "SAMAI RICE",
+    "category": "FOOD",
+    "brand": "ATHIYAMAN",
+    "productType": "Popular"
+  },
+  {
+    "id": 140,
+    "name": "SIRUTHANIYA HEALTH MIX",
+    "category": "FOOD",
+    "brand": "ATHIYAMAN",
+    "productType": "Popular"
+  },
+  {
+    "id": 141,
+    "name": "VILVALEAF POWDER JAR",
+    "category": "HEALTH & WELLNESS",
+    "brand": "MAKIL",
+    "productType": "Popular"
+  },
+  {
+    "id": 142,
+    "name": "PODUTHALAI POWDER JAR",
+    "category": "HEALTH & WELLNESS",
+    "brand": "MAKIL",
+    "productType": "deals"
+  },
+  {
+    "id": 143,
+    "name": "VARAGU RICE",
+    "category": "FOOD",
+    "brand": "ATHIYAMAN",
+    "productType": "Popular"
+  },
+  {
+    "id": 144,
+    "name": "Millet Nutritional Mix (PO)",
+    "category": "FOOD",
+    "brand": "ATHIYAMAN",
+    "productType": "Hot"
+  },
+  {
+    "id": 145,
+    "name": "THALISADI CHURNAM",
+    "category": "HEALTH & WELLNESS",
+    "brand": "DIVYAM",
+    "productType": "Popular"
+  },
+  {
+    "id": 146,
+    "name": "Athiyaman Country Sugar (PO)",
+    "category": "FOOD",
+    "brand": "ATHIYAMAN",
+    "productType": "Trending"
+  },
+  {
+    "id": 147,
+    "name": "KODO - MORINGA MILLET PONGAL MIX 250G",
+    "category": "FOOD",
+    "brand": "ATHIYAMAN",
+    "productType": "Best Selling"
+  },
+  {
+    "id": 148,
+    "name": "KAMBU DOSA MIX(PO)",
+    "category": "FOOD",
+    "brand": "ATHIYAMAN",
+    "productType": "Trending"
+  },
+  {
+    "id": 149,
+    "name": "KAMBU MAAVU(PO)",
+    "category": "FOOD",
+    "brand": "ATHIYAMAN",
+    "productType": "Trending"
+  },
+  {
+    "id": 150,
+    "name": "KAMBU PUTTU MAAVU(PO)",
+    "category": "FOOD",
+    "brand": "ATHIYAMAN",
+    "productType": "Trending"
+  },
+  {
+    "id": 151,
+    "name": "BEETROOT MALT(JAR)",
+    "category": "FOOD",
+    "brand": "ATHIYAMAN",
+    "productType": "Trending"
+  },
+  {
+    "id": 152,
+    "name": "ADATHODAI KUDINEER CHURNAM",
+    "category": "HEALTH & WELLNESS",
+    "brand": "DIVYAM",
+    "productType": "Trending"
+  },
+  {
+    "id": 153,
+    "name": "KARUPPU KAVUNI HEALTH MIX(JAR)",
+    "category": "FOOD",
+    "brand": "ATHIYAMAN",
+    "productType": "deals"
+  },
+  {
+    "id": 154,
+    "name": "MATHUMEGA SURANAM JAR",
+    "category": "HEALTH & WELLNESS",
+    "brand": "MAKIL",
+    "productType": "Popular"
+  },
+  {
+    "id": 155,
+    "name": "LITTLE MILLET - INDIAN PENNYWORT (VALLARAI PONGAL)MIX 250G",
+    "category": "FOOD",
+    "brand": "ATHIYAMAN",
+    "productType": "Best Selling"
+  },
+  {
+    "id": 156,
+    "name": "BATH POWDER JAR(NR)",
+    "category": "SKIN",
+    "brand": "MAKIL",
+    "productType": "Popular"
+  },
+  {
+    "id": 157,
+    "name": "GINGER GARLIC PICKLE JAR",
+    "category": "FOOD",
+    "brand": "VEDAN AMUTHU",
+    "productType": "Trending"
+  },
+  {
+    "id": 158,
+    "name": "MALLI POWDER (PO)",
+    "category": "HEALTH & WELLNESS",
+    "brand": "MAKIL",
+    "productType": "Popular"
+  },
+  {
+    "id": 159,
+    "name": "KULAMBU MANJAL POWDER",
+    "category": "HEALTH & WELLNESS",
+    "brand": "MAKIL",
+    "productType": "Popular"
+  },
+  {
+    "id": 160,
+    "name": "BEETROOT MALT(JAR)",
+    "category": "FOOD",
+    "brand": "ATHIYAMAN",
+    "productType": "deals"
+  },
+  {
+    "id": 161,
+    "name": "CARROT MALT(JAR)",
+    "category": "FOOD",
+    "brand": "ATHIYAMAN",
+    "productType": "Hot"
+  },
+  {
+    "id": 162,
+    "name": "NARTHANKAI PICKLE (CITRON PICKLE) (JAR)",
+    "category": "FOOD",
+    "brand": "VEDAN AMUTHU",
+    "productType": "Popular"
+  },
+  {
+    "id": 163,
+    "name": "KULAMBU MILAGAI THOOL(PO)",
+    "category": "HEALTH & WELLNESS",
+    "brand": "MAKIL",
+    "productType": "Popular"
+  },
+  {
+    "id": 164,
+    "name": "SUNDAIKKAI THOKKU",
+    "category": "FOOD",
+    "brand": "VEDAN AMUTHU",
+    "productType": "Popular"
+  },
+  {
+    "id": 165,
+    "name": "ABC MALT (JAR)",
+    "category": "FOOD",
+    "brand": "ATHIYAMAN",
+    "productType": "Trending"
+  },
+  {
+    "id": 166,
+    "name": "CHILLI POWDER",
+    "category": "FOOD",
+    "brand": "ATHIYAMAN",
+    "productType": "Popular"
+  },
+  {
+    "id": 167,
+    "name": "KADUKKAI CHICKEN BRIYANI POWDER JAR(NR)",
+    "category": "FOOD",
+    "brand": "VEDAN AMUTHU",
+    "productType": "Trending"
+  },
+  {
+    "id": 168,
+    "name": "GINGER GARLIC PICKLE JAR",
+    "category": "FOOD",
+    "brand": "VEDAN AMUTHU",
+    "productType": "Popular"
+  },
+  {
+    "id": 169,
+    "name": "AMUTHAM NATTU CHAKKARAI (Sukku+Elakai)",
+    "category": "FOOD",
+    "brand": "ATHIYAMAN",
+    "productType": "deals"
+  },
+  {
+    "id": 170,
+    "name": "MUTAKKATRAN IDLY POWDER JAR",
+    "category": "FOOD",
+    "brand": "VEDAN AMUTHU",
+    "productType": "deals"
+  },
+  {
+    "id": 171,
+    "name": "MUTAKKATRAN POWDER(PO)",
+    "category": "HEALTH & WELLNESS",
+    "brand": "MAKIL",
+    "productType": "Popular"
+  },
+  {
+    "id": 172,
+    "name": "RAGI DOSAI MIX",
+    "category": "FOOD",
+    "brand": "ATHIYAMAN",
+    "productType": "Popular"
+  },
+  {
+    "id": 173,
+    "name": "Adhiyaman Country Jaggery",
+    "category": "FOOD",
+    "brand": "ATHIYAMAN",
+    "productType": "Trending"
+  },
+  {
+    "id": 174,
+    "name": "Drumstick Leaf Idli Powder JAR",
+    "category": "FOOD",
+    "brand": "VEDAN AMUTHU",
+    "productType": "Trending"
+  },
+  {
+    "id": 175,
+    "name": "GREEN TEA (JAR)",
+    "category": "BEVERAGES",
+    "brand": "VEDAN AMUTHU",
+    "productType": "deals"
+  },
+  {
+    "id": 176,
+    "name": "MURUNGAIKEERAI SOUP (PO)",
+    "category": "FOOD",
+    "brand": "ATHIYAMAN",
+    "productType": "Popular"
+  },
+  {
+    "id": 177,
+    "name": "MASIKAKKAI POWDER (PO)",
+    "category": "HEALTH & WELLNESS",
+    "brand": "MAKIL",
+    "productType": "Popular"
+  },
+  {
+    "id": 178,
+    "name": "Neem Flower Rasam Powder",
+    "category": "FOOD",
+    "brand": "ATHIYAMAN",
+    "productType": "Popular"
+  },
+  {
+    "id": 179,
+    "name": "POOVARASAN KAI SOAP",
+    "category": "BODY",
+    "brand": "VEDAN",
+    "productType": "Popular"
+  },
+  {
+    "id": 180,
+    "name": "NITHYAKALYANI POWDER(PO)",
+    "category": "HEALTH & WELLNESS",
+    "brand": "MAKIL",
+    "productType": "Popular"
+  },
+  {
+    "id": 181,
+    "name": "KUPPAIMENI POWDER",
+    "category": "HEALTH & WELLNESS",
+    "brand": "MAKIL",
+    "productType": "Popular"
+  },
+  {
+    "id": 182,
+    "name": "KANDATHIPPILI POWDER (PO)",
+    "category": "HEALTH & WELLNESS",
+    "brand": "MAKIL",
+    "productType": "Popular"
+  },
+  {
+    "id": 183,
+    "name": "NEELY AVURI POWDER (PO) NR",
+    "category": "HEALTH & WELLNESS",
+    "brand": "MAKIL",
+    "productType": "Popular"
+  },
+  {
+    "id": 184,
+    "name": "MATHULAI POWDER(PO)",
+    "category": "HEALTH & WELLNESS",
+    "brand": "MAKIL",
+    "productType": "Popular"
+  },
+  {
+    "id": 185,
+    "name": "KARUVEPPILAI POWDER(PO)",
+    "category": "HEALTH & WELLNESS",
+    "brand": "MAKIL",
+    "productType": "Popular"
+  },
+  {
+    "id": 186,
+    "name": "KARISALANGKANNI POWDER(PO)",
+    "category": "HEALTH & WELLNESS",
+    "brand": "MAKIL",
+    "productType": "Popular"
+  },
+  {
+    "id": 187,
+    "name": "SUKKU POWDER(PO)",
+    "category": "HEALTH & WELLNESS",
+    "brand": "MAKIL",
+    "productType": "Popular"
+  },
+  {
+    "id": 188,
+    "name": "Herbal Steam Powder (PO)",
+    "category": "HEALTH & WELLNESS",
+    "brand": "MAKIL",
+    "productType": "Popular"
+  },
+  {
+    "id": 189,
+    "name": "THRIBALA POWDER(PO)",
+    "category": "HEALTH & WELLNESS",
+    "brand": "MAKIL",
+    "productType": "Popular"
+  },
+  {
+    "id": 190,
+    "name": "SIRUPEELAI POWDER(PO)",
+    "category": "HEALTH & WELLNESS",
+    "brand": "MAKIL",
+    "productType": "Popular"
+  },
+  {
+    "id": 191,
+    "name": "GUVA LEAF POWDER(PO)",
+    "category": "HEALTH & WELLNESS",
+    "brand": "MAKIL",
+    "productType": "Popular"
+  },
+  {
+    "id": 192,
+    "name": "THUTHI LEAF POWDER(PO)",
+    "category": "HEALTH & WELLNESS",
+    "brand": "MAKIL",
+    "productType": "Popular"
+  },
+  {
+    "id": 193,
+    "name": "Amla Powder (PO)",
+    "category": "HEALTH & WELLNESS",
+    "brand": "MAKIL",
+    "productType": "Popular"
+  },
+  {
+    "id": 194,
+    "name": "MULTHANI METTI(PO)",
+    "category": "SKIN",
+    "brand": "MAKIL",
+    "productType": "Popular"
+  },
+  {
+    "id": 195,
+    "name": "AMMAAN PACHARISI POWDER(PO)",
+    "category": "SKIN",
+    "brand": "MAKIL",
+    "productType": "Popular"
+  },
+  {
+    "id": 196,
+    "name": "kandakathiri powder",
+    "category": "HEALTH & WELLNESS",
+    "brand": "MAKIL",
+    "productType": "Popular"
+  },
+  {
+    "id": 197,
+    "name": "KARUNJIRAGA POWDER(PO)",
+    "category": "HEALTH & WELLNESS",
+    "brand": "MAKIL",
+    "productType": "Popular"
+  },
+  {
+    "id": 198,
+    "name": "THAAMARAI POO POWDER(PO)",
+    "category": "SKIN",
+    "brand": "MAKIL",
+    "productType": "Popular"
+  },
+  {
+    "id": 199,
+    "name": "THUMBAI LEAF POWDER (PO)",
+    "category": "HEALTH & WELLNESS",
+    "brand": "MAKIL",
+    "productType": "Popular"
+  },
+  {
+    "id": 200,
+    "name": "NOCHI ILAI POWDER(PO)",
+    "category": "HEALTH & WELLNESS",
+    "brand": "MAKIL",
+    "productType": "Popular"
+  },
+  {
+    "id": 201,
+    "name": "CHITTARATHAI POWDER(PO)NR",
+    "category": "HEALTH & WELLNESS",
+    "brand": "MAKIL",
+    "productType": "Popular"
+  },
+  {
+    "id": 202,
+    "name": "Neem Leaf Powder",
+    "category": "HEALTH & WELLNESS",
+    "brand": "MAKIL",
+    "productType": "Popular"
+  },
+  {
+    "id": 203,
+    "name": "NAAYURUVI POWDER(PO)",
+    "category": "HEALTH & WELLNESS",
+    "brand": "MAKIL",
+    "productType": "Popular"
+  },
+  {
+    "id": 204,
+    "name": "SEENTHILKODI POWDER (PO)",
+    "category": "HEALTH & WELLNESS",
+    "brand": "MAKIL",
+    "productType": "Popular"
+  },
+  {
+    "id": 205,
+    "name": "SIRUNERUNJIL POWDER(PO)",
+    "category": "HEALTH & WELLNESS",
+    "brand": "MAKIL",
+    "productType": "Popular"
+  },
+  {
+    "id": 206,
+    "name": "NILA PANAIKILANGU POWDER (PO)",
+    "category": "HEALTH & WELLNESS",
+    "brand": "MAKIL",
+    "productType": "Popular"
+  },
+  {
+    "id": 207,
+    "name": "Fenugreek Powder (PO)",
+    "category": "HEALTH & WELLNESS",
+    "brand": "MAKIL",
+    "productType": "Popular"
+  },
+  {
+    "id": 208,
+    "name": "MANATHAKKALI POWDER (PO)",
+    "category": "HEALTH & WELLNESS",
+    "brand": "MAKIL",
+    "productType": "Popular"
+  },
+  {
+    "id": 209,
+    "name": "REDSANDAL POWDER(PO)",
+    "category": "SKIN",
+    "brand": "MAKIL",
+    "productType": "Popular"
+  },
+  {
+    "id": 210,
+    "name": "LAVANGAPATTAI POWDER (PO)",
+    "category": "HEALTH & WELLNESS",
+    "brand": "MAKIL",
+    "productType": "Popular"
+  },
+  {
+    "id": 211,
+    "name": "MARAMANJAL (G)",
+    "category": "SKIN",
+    "brand": "MAKIL",
+    "productType": "Popular"
+  },
+  {
+    "id": 212,
+    "name": "KAMBU RICE",
+    "category": "FOOD",
+    "brand": "ATHIYAMAN",
+    "productType": "Popular"
+  },
+  {
+    "id": 213,
+    "name": "Rose Petal Powder (PO)",
+    "category": "SKIN",
+    "brand": "MAKIL",
+    "productType": "Popular"
+  },
+  {
+    "id": 214,
+    "name": "VILVA LEAF POWDER(PO)",
+    "category": "HEALTH & WELLNESS",
+    "brand": "MAKIL",
+    "productType": "Popular"
+  },
+  {
+    "id": 215,
+    "name": "KORAIKILANGU POWDER(PO)",
+    "category": "HEALTH & WELLNESS",
+    "brand": "MAKIL",
+    "productType": "Popular"
+  },
+  {
+    "id": 216,
+    "name": "TRIKADUKU SURANAM(PO)",
+    "category": "HEALTH & WELLNESS",
+    "brand": "MAKIL",
+    "productType": "Popular"
+  },
+  {
+    "id": 217,
+    "name": "THIPPILI RASAYANAM",
+    "category": "HEALTH & WELLNESS",
+    "brand": "DIVYAM",
+    "productType": "Trending"
+  },
+  {
+    "id": 218,
+    "name": "Gram flour",
+    "category": "SKIN",
+    "brand": "MAKIL",
+    "productType": "Trending"
+  },
+  {
+    "id": 219,
+    "name": "WHEAT MAAVU POWDER(PO)",
+    "category": "FOOD",
+    "brand": "ATHIYAMAN",
+    "productType": "Trending"
+  },
+  {
+    "id": 220,
+    "name": "PIRANDAI POWDER(PO)",
+    "category": "HEALTH & WELLNESS",
+    "brand": "MAKIL",
+    "productType": "Trending"
+  },
+  {
+    "id": 221,
+    "name": "THATHUVIRUTHI LEHYAM",
+    "category": "HEALTH & WELLNESS",
+    "brand": "DIVYAM",
+    "productType": "Trending"
+  },
+  {
+    "id": 222,
+    "name": "THANTRIKKAI POWDER(PO)",
+    "category": "HEALTH & WELLNESS",
+    "brand": "MAKIL",
+    "productType": "Popular"
+  },
+  {
+    "id": 223,
+    "name": "VALLARAI LEHYAM",
+    "category": "HEALTH & WELLNESS",
+    "brand": "DIVYAM",
+    "productType": "Trending"
+  },
+  {
+    "id": 224,
+    "name": "HERBAL HAIR COLOUR",
+    "category": "HAIR",
+    "brand": "MAKIL",
+    "productType": "Trending"
+  },
+  {
+    "id": 225,
+    "name": "KARPURAVALLI POWDER(PO)",
+    "category": "HEALTH & WELLNESS",
+    "brand": "MAKIL",
+    "productType": "Trending"
+  },
+  {
+    "id": 226,
+    "name": "AMLA HAIR OIL",
+    "category": "HAIR",
+    "brand": "MAKIL",
+    "productType": "Trending"
+  },
+  {
+    "id": 227,
+    "name": "COW MILK SOAP",
+    "category": "BODY",
+    "brand": "VEDAN",
+    "productType": "Trending"
+  },
+  {
+    "id": 228,
+    "name": "KUTHIRAIVAALI RICE(PO)",
+    "category": "FOOD",
+    "brand": "ATHIYAMAN",
+    "productType": "Popular"
+  },
+  {
+    "id": 229,
+    "name": "THOTTAL SURUNGI POWDER",
+    "category": "HEALTH & WELLNESS",
+    "brand": "MAKIL",
+    "productType": "Trending"
+  },
+  {
+    "id": 230,
+    "name": "MUSUMUSUKKAI POWDER(PO)",
+    "category": "HEALTH & WELLNESS",
+    "brand": "MAKIL",
+    "productType": "Trending"
+  },
+  {
+    "id": 231,
+    "name": "PARUPPU DOSAI MIX(G)",
+    "category": "FOOD",
+    "brand": "ATHIYAMAN",
+    "productType": "Trending"
+  },
+  {
+    "id": 232,
+    "name": "POONTHIKAAI PODI(PO)",
+    "category": "HEALTH & WELLNESS",
+    "brand": "MAKIL",
+    "productType": "deals"
+  },
+  {
+    "id": 233,
+    "name": "THIPPILI POWDER(PO)",
+    "category": "HEALTH & WELLNESS",
+    "brand": "MAKIL",
+    "productType": "deals"
+  },
+  {
+    "id": 234,
+    "name": "MARUDHONTRI POWDER(PO)",
+    "category": "HEALTH & WELLNESS",
+    "brand": "MAKIL",
+    "productType": "Popular"
+  },
+  {
+    "id": 235,
+    "name": "KUPPAIMENI POWDER(PO)",
+    "category": "HEALTH & WELLNESS",
+    "brand": "MAKIL",
+    "productType": "deals"
+  },
+  {
+    "id": 236,
+    "name": "LEMON PEAL POWDER",
+    "category": "SKIN",
+    "brand": "MAKIL",
+    "productType": "deals"
+  },
+  {
+    "id": 237,
+    "name": "ALOE VERA POWDER",
+    "category": "SKIN",
+    "brand": "MAKIL",
+    "productType": "deals"
+  },
+  {
+    "id": 238,
+    "name": "Neem Flower Powder",
+    "category": "SKIN",
+    "brand": "MAKIL",
+    "productType": "deals"
+  },
+  {
+    "id": 239,
+    "name": "MURUNGAI LEAF POWDER (PO)",
+    "category": "HEALTH & WELLNESS",
+    "brand": "MAKIL",
+    "productType": "deals"
+  },
+  {
+    "id": 240,
+    "name": "NILAAVARAI POWDER(PO)",
+    "category": "HEALTH & WELLNESS",
+    "brand": "MAKIL",
+    "productType": "deals"
+  },
+  {
+    "id": 241,
+    "name": "OMA POWDER",
+    "category": "HEALTH & WELLNESS",
+    "brand": "MAKIL",
+    "productType": "deals"
+  },
+  {
+    "id": 242,
+    "name": "Hibiscus Leaf Powder (PO)",
+    "category": "HAIR",
+    "brand": "MAKIL",
+    "productType": "deals"
+  },
+  {
+    "id": 243,
+    "name": "Large Olive Seed Powder (PO)",
+    "category": "HEALTH & WELLNESS",
+    "brand": "MAKIL",
+    "productType": "deals"
+  },
+  {
+    "id": 244,
+    "name": "SIVAPPU KAVUNI RICE",
+    "category": "FOOD",
+    "brand": "ATHIYAMAN",
+    "productType": "Popular"
+  },
+  {
+    "id": 245,
+    "name": "54 VAGAI HOMA THIRAVIYANGAL",
+    "category": "POOJAS",
+    "brand": "NIRAI HOMAM",
+    "productType": "Trending"
+  },
+  {
+    "id": 246,
+    "name": "KADUKKAI BAJI BONDA MIX(PO)",
+    "category": "FOOD",
+    "brand": "ATHIYAMAN",
+    "productType": "Popular"
+  },
+  {
+    "id": 247,
+    "name": "KALARCHIKKAI POWDER(PO)",
+    "category": "HEALTH & WELLNESS",
+    "brand": "MAKIL",
+    "productType": "deals"
+  },
+  {
+    "id": 248,
+    "name": "NATTU SAMBA BROWN RICE",
+    "category": "FOOD",
+    "brand": "ATHIYAMAN",
+    "productType": "Popular"
+  },
+  {
+    "id": 249,
+    "name": "MAALEAF POWDER(PO)",
+    "category": "HEALTH & WELLNESS",
+    "brand": "MAKIL",
+    "productType": "deals"
+  },
+  {
+    "id": 250,
+    "name": "VETTIVER POWDER(PO)",
+    "category": "HEALTH & WELLNESS",
+    "brand": "MAKIL",
+    "productType": "deals"
+  },
+  {
+    "id": 251,
+    "name": "VELLARUKU POWDER(PO)",
+    "category": "HEALTH & WELLNESS",
+    "brand": "MAKIL",
+    "productType": "deals"
+  },
+  {
+    "id": 252,
+    "name": "Herbal Incense Powder (PO)",
+    "category": "POOJAS",
+    "brand": "MAKIL",
+    "productType": "deals"
+  },
+  {
+    "id": 253,
+    "name": "RICE KANJI SHAMPOO",
+    "category": "HAIR",
+    "brand": "MAKIL",
+    "productType": "Best Selling"
+  },
+  {
+    "id": 254,
+    "name": "PONNI (BROWN RICE)",
+    "category": "FOOD",
+    "brand": "ATHIYAMAN",
+    "productType": "deals"
+  },
+  {
+    "id": 255,
+    "name": "SOWBAKIYA SUNDI LEHYAM",
+    "category": "HEALTH & WELLNESS",
+    "brand": "DIVYAM",
+    "productType": "deals"
+  },
+  {
+    "id": 256,
+    "name": "DEEPA OIL",
+    "category": "POOJAS",
+    "brand": "MAKIL",
+    "productType": "Popular"
+  },
+  {
+    "id": 257,
+    "name": "RAGI POWDER(PO)",
+    "category": "FOOD",
+    "brand": "ATHIYAMAN",
+    "productType": "Popular"
+  },
+  {
+    "id": 258,
+    "name": "CUCUMBER GEL (GC)",
+    "category": "SKIN",
+    "brand": "MAKIL",
+    "productType": "Popular"
+  },
+  {
+    "id": 259,
+    "name": "SPROUTED MULTIGRAIN HEALTH MIX",
+    "category": "FOOD",
+    "brand": "ATHIYAMAN",
+    "productType": "Popular"
+  },
+  {
+    "id": 260,
+    "name": "WILD HONEY JAR(NR)",
+    "category": "FOOD",
+    "brand": "VEDAN AMUTHU",
+    "productType": "deals"
+  },
+  {
+    "id": 261,
+    "name": "SIRUTHANIYA ULUNDHU KANJI HEALTH MIX POWDER",
+    "category": "FOOD",
+    "brand": "ATHIYAMAN",
+    "productType": "Popular"
+  },
+  {
+    "id": 262,
+    "name": "THUTHUVALAI LEHYAM",
+    "category": "HEALTH & WELLNESS",
+    "brand": "DIVYAM",
+    "productType": "deals"
+  },
+  {
+    "id": 263,
+    "name": "HERBAL SHIKAKAI POWDER",
+    "category": "HAIR",
+    "brand": "MAKIL",
+    "productType": "deals"
+  }
+]
