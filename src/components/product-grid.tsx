@@ -1,5 +1,5 @@
 'use client';
-import { useState } from "react";
+
 import { Star, Leaf, Sparkles, RefreshCw, Eye, ArrowRight } from "lucide-react";
 import { type Product } from "@/lib/products-data";
 import { Link } from "react-router-dom";
