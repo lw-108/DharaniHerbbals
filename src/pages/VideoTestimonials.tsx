@@ -261,7 +261,7 @@ export default function VideoTestimonials() {
                 {/* Thumbnail Layer */}
                 <div className="relative aspect-[16/10] bg-gray-100 flex items-center justify-center overflow-hidden">
                   <img
-                    src={vid.thumb}
+                    src="/placeholder.svg"
                     alt={vid.title}
                     className="w-full h-full object-cover transition-transform duration-500 hover:scale-105"
                   />

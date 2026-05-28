@@ -1,7 +1,8 @@
 "use client"
 
-import { Book, Menu, ShoppingCart, Search, Palette, GraduationCap, History, Users, LayoutDashboard, Sparkles, Boxes, LogOut } from "lucide-react";
+import { Book, Menu, ShoppingCart, Search, Palette, GraduationCap, History, Users, LayoutDashboard, Sparkles, Boxes, LogOut, Heart } from "lucide-react";
 import * as React from "react";
+import { useApp } from "@/lib/app-context";
 
 import {
   Accordion,
@@ -83,21 +84,16 @@ interface NavbarProps {
       url: string;
     };
   };
-  // Interactive state mapping
-  user?: {
-    name: string;
-    email: string;
-    avatarUrl?: string;
-  } | null;
-  onSignInClick?: () => void;
-  onSignUpClick?: () => void;
-  onSignOutClick?: () => void;
+  user?: any;
+  onSignInClick?: any;
+  onSignUpClick?: any;
+  onSignOutClick?: any;
 }
 
 export default function Navbar({
   logo = {
     url: "#",
-    src: "https://pub-940ccf6255b54fa799a9b01050e6c227.r2.dev/ruixen-dark.png", // replace with actual logo path if needed
+    src: "https://pub-940ccf6255b54fa799a9b01050e6c227.r2.dev/ruixen-dark.png",
     alt: "Dharani Herbbals",
     title: "Dharani Herbbals",
   },
@@ -185,13 +181,12 @@ export default function Navbar({
     login: { text: "Sign in", url: "#" },
     signup: { text: "Get Started", url: "#" },
   },
-  user = null,
-  onSignInClick,
-  onSignUpClick,
-  onSignOutClick,
 }: NavbarProps) {
+  const { user, cart, wishlist, setIsCartOpen, setIsAuthOpen, setAuthMode, signOut } = useApp();
   const [showDropdown, setShowDropdown] = React.useState(false);
   const dropdownRef = React.useRef<HTMLDivElement>(null);
+
+  const cartItemsCount = cart.reduce((sum, item) => sum + item.quantity, 0);
 
   // Close dropdown on outside click
   React.useEffect(() => {
@@ -205,6 +200,17 @@ export default function Navbar({
     }
     return () => document.removeEventListener("mousedown", handleOutsideClick);
   }, [showDropdown]);
+
+  const handleSearchFocus = () => {
+    const searchInput = document.querySelector('input[placeholder="Search products..."]') as HTMLInputElement;
+    if (searchInput) {
+      searchInput.focus();
+      searchInput.scrollIntoView({ behavior: "smooth", block: "center" });
+    } else {
+      const element = document.getElementById("catalog");
+      if (element) element.scrollIntoView({ behavior: "smooth" });
+    }
+  };
 
   return (
     <section className="py-4 border-b border-border/40 bg-card/65 backdrop-blur-md sticky top-0 z-40 transition-all duration-300">
@@ -267,21 +273,42 @@ export default function Navbar({
               variant="ghost"
               size="icon"
               className="rounded-full size-9 hover:bg-muted"
+              onClick={handleSearchFocus}
             >
               <Search className="size-4 text-muted-foreground hover:text-foreground" />
+            </Button>
+
+            {/* Wishlist Button */}
+            <Button
+              variant="ghost"
+              size="icon"
+              className="rounded-full size-9 hover:bg-muted relative"
+              onClick={() => {
+                const element = document.getElementById("catalog");
+                if (element) element.scrollIntoView({ behavior: "smooth" });
+              }}
+            >
+              <Heart className="size-4 text-muted-foreground hover:text-foreground" />
+              {wishlist.length > 0 && (
+                <span className="absolute -top-1 -right-1 bg-red-500 text-white text-[9px] font-black rounded-full h-4 w-4 flex items-center justify-center animate-in zoom-in duration-200">
+                  {wishlist.length}
+                </span>
+              )}
             </Button>
 
             {/* Cart Button */}
             <Button 
               variant="ghost" 
               size="icon"
-              className="rounded-full size-9 hover:bg-muted"
-              onClick={() => {
-                const element = document.getElementById("catalog");
-                if (element) element.scrollIntoView({ behavior: "smooth" });
-              }}
+              className="rounded-full size-9 hover:bg-muted relative"
+              onClick={() => setIsCartOpen(true)}
             >
               <ShoppingCart className="size-4 text-muted-foreground hover:text-foreground" />
+              {cartItemsCount > 0 && (
+                <span className="absolute -top-1 -right-1 bg-[#1eab59] text-white text-[9px] font-black rounded-full h-4 w-4 flex items-center justify-center animate-in zoom-in duration-200">
+                  {cartItemsCount}
+                </span>
+              )}
             </Button>
 
             {/* Auth Buttons or Avatar */}
@@ -307,7 +334,7 @@ export default function Navbar({
                     <button
                       onClick={() => {
                         setShowDropdown(false);
-                        if (onSignOutClick) onSignOutClick();
+                        signOut();
                       }}
                       className="flex w-full items-center gap-2 rounded-lg px-3 py-2 text-sm text-destructive hover:bg-destructive/10 transition-colors"
                     >
@@ -319,10 +346,10 @@ export default function Navbar({
               </div>
             ) : (
               <div className="flex items-center gap-2">
-                <Button variant="outline" size="sm" className="rounded-full font-semibold px-4 h-9" onClick={onSignInClick}>
+                <Button variant="outline" size="sm" className="rounded-full font-semibold px-4 h-9" onClick={() => { setAuthMode("signin"); setIsAuthOpen(true); }}>
                   {auth.login.text}
                 </Button>
-                <Button size="sm" className="rounded-full font-semibold px-4 h-9 bg-primary hover:bg-primary/90 text-primary-foreground" onClick={onSignUpClick}>
+                <Button size="sm" className="rounded-full font-semibold px-4 h-9 bg-primary hover:bg-primary/90 text-primary-foreground" onClick={() => { setAuthMode("signup"); setIsAuthOpen(true); }}>
                   {auth.signup.text}
                 </Button>
               </div>
@@ -378,22 +405,43 @@ export default function Navbar({
                 variant="ghost"
                 size="icon"
                 className="rounded-full size-8 hover:bg-muted"
+                onClick={handleSearchFocus}
               >
                 <Search className="size-4 text-muted-foreground" />
               </Button>
 
+              {/* Wishlist button mobile */}
+              {wishlist.length > 0 && (
+                <div className="relative">
+                  <Button 
+                    variant="ghost" 
+                    size="icon" 
+                    className="rounded-full size-8 hover:bg-muted"
+                  >
+                    <Heart className="size-4 text-red-500" />
+                  </Button>
+                  <span className="absolute -top-0.5 -right-0.5 bg-red-500 text-white text-[8px] font-black rounded-full h-3.5 w-3.5 flex items-center justify-center">
+                    {wishlist.length}
+                  </span>
+                </div>
+              )}
+
               {/* Cart button mobile */}
-              <Button 
-                variant="ghost" 
-                size="icon" 
-                className="rounded-full size-8 hover:bg-muted"
-                onClick={() => {
-                  const element = document.getElementById("catalog");
-                  if (element) element.scrollIntoView({ behavior: "smooth" });
-                }}
-              >
-                <ShoppingCart className="size-4 text-muted-foreground" />
-              </Button>
+              <div className="relative">
+                <Button 
+                  variant="ghost" 
+                  size="icon" 
+                  className="rounded-full size-8 hover:bg-muted"
+                  onClick={() => setIsCartOpen(true)}
+                >
+                  <ShoppingCart className="size-4 text-muted-foreground" />
+                </Button>
+                {cartItemsCount > 0 && (
+                  <span className="absolute -top-0.5 -right-0.5 bg-[#1eab59] text-white text-[8px] font-black rounded-full h-3.5 w-3.5 flex items-center justify-center">
+                    {cartItemsCount}
+                  </span>
+                )}
+              </div>
 
               {/* Menu Sheet */}
               <Sheet>
@@ -489,10 +537,7 @@ export default function Navbar({
                         <Button 
                           variant="destructive" 
                           className="w-full rounded-xl font-semibold gap-2 h-10" 
-                          onClick={() => {
-                            // Close Sheet trigger is usually covered by Radix wrapper, click on signout
-                            if (onSignOutClick) onSignOutClick();
-                          }}
+                          onClick={() => signOut()}
                         >
                           <LogOut className="size-4" />
                           Sign Out
@@ -500,10 +545,10 @@ export default function Navbar({
                       </div>
                     ) : (
                       <div className="flex flex-col gap-2">
-                        <Button variant="outline" className="w-full rounded-xl font-semibold h-10" onClick={onSignInClick}>
+                        <Button variant="outline" className="w-full rounded-xl font-semibold h-10" onClick={() => { setAuthMode("signin"); setIsAuthOpen(true); }}>
                           {auth.login.text}
                         </Button>
-                        <Button className="w-full rounded-xl font-semibold h-10 bg-primary text-primary-foreground hover:bg-primary/90" onClick={onSignUpClick}>
+                        <Button className="w-full rounded-xl font-semibold h-10 bg-primary text-primary-foreground hover:bg-primary/90" onClick={() => { setAuthMode("signup"); setIsAuthOpen(true); }}>
                           {auth.signup.text}
                         </Button>
                       </div>
@@ -518,6 +563,7 @@ export default function Navbar({
 
 
     </section>
+
   );
 }
 

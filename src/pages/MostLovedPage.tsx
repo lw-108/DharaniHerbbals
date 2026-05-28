@@ -7,10 +7,11 @@ import { Footer } from "../components/footer";
 import { Star, Heart } from "lucide-react";
 import { useProductFilter } from "@/lib/product-filter-context";
 import { Link } from "react-router-dom";
+import { useApp } from "@/lib/app-context";
 
 export default function MostLovedPage() {
   const { category, brand, productType, sort } = useProductFilter();
-  const [searchQuery, setSearchQuery] = useState("");
+  const { searchQuery, setSearchQuery, addToCart, toggleWishlist, wishlist } = useApp();
   const [visibleCount, setVisibleCount] = useState(20);
   const [selectedProduct, setSelectedProduct] = useState<Product | null>(null);
 
@@ -33,6 +34,7 @@ export default function MostLovedPage() {
 
   const renderProductCard = (product: Product) => {
     const discount = product.originalPrice ? Math.round(((product.originalPrice - product.price) / product.originalPrice) * 100) : 0;
+    const isWishlisted = wishlist.includes(product.id);
     return (
       <div
         key={product.id}
@@ -44,8 +46,13 @@ export default function MostLovedPage() {
               {discount}% OFF
             </span>
           )}
-          <button className="absolute top-3 right-3 text-gray-300 hover:text-red-500 transition-colors z-10">
-            <Heart className="w-5 h-5" />
+          <button
+            onClick={() => toggleWishlist(product.id)}
+            className={`absolute top-3 right-3 transition-colors z-10 cursor-pointer p-1 rounded-full bg-white/80 shadow-sm backdrop-blur-sm ${isWishlisted ? "text-red-500" : "text-gray-300 hover:text-red-500"
+              }`}
+            title="Toggle Wishlist"
+          >
+            <Heart className={`w-4 h-4 ${isWishlisted ? "fill-current" : ""}`} />
           </button>
           <img
             src={product.imageUrl}
@@ -78,10 +85,10 @@ export default function MostLovedPage() {
               )}
             </div>
             <div className="flex gap-2">
-              <button onClick={() => setSelectedProduct(product)} className="px-3 py-1.5 bg-emerald-600 text-white font-bold rounded-lg text-xs hover:bg-emerald-700 transition-all active:scale-95 shadow-sm">
+              <button onClick={() => addToCart(product)} className="px-3 py-1.5 bg-emerald-600 text-white font-bold rounded-lg text-xs hover:bg-emerald-700 transition-all active:scale-95 shadow-sm">
                 Add to Cart
               </button>
-              <button onClick={() => /* TODO: handle buy now */ null} className="px-3 py-1.5 bg-amber-600 text-white font-bold rounded-lg text-xs hover:bg-amber-700 transition-all active:scale-95 shadow-sm">
+              <button onClick={() => addToCart(product)} className="px-3 py-1.5 bg-amber-600 text-white font-bold rounded-lg text-xs hover:bg-amber-700 transition-all active:scale-95 shadow-sm">
                 Buy Now
               </button>
             </div>
@@ -93,22 +100,22 @@ export default function MostLovedPage() {
 
   return (
     <div className="min-h-screen bg-white text-gray-900 flex flex-col selection:bg-emerald-100 selection:text-emerald-900">
-        <Banner
-          searchQuery={searchQuery}
-          setSearchQuery={setSearchQuery}
-          filteredProducts={mostLoved}
-          onProductClick={setSelectedProduct}
-        />
-        <div className="flex justify-center my-4">
-          <Link to="/shop" className="px-4 py-2 bg-emerald-600 text-white rounded hover:bg-emerald-700 transition">
-            View All Products
-          </Link>
-        </div>
+      <Banner
+        searchQuery={searchQuery}
+        setSearchQuery={setSearchQuery}
+        filteredProducts={mostLoved}
+        onProductClick={setSelectedProduct}
+      />
+      <div className="flex justify-center my-4">
+        <Link to="/shop" className="px-4 py-2 bg-emerald-600 text-white rounded hover:bg-emerald-700 transition">
+          View All Products
+        </Link>
+      </div>
       <Navbar
         user={null}
-        onSignInClick={() => {}}
-        onSignUpClick={() => {}}
-        onSignOutClick={() => {}}
+        onSignInClick={() => { }}
+        onSignUpClick={() => { }}
+        onSignOutClick={() => { }}
       />
 
       <div className="bg-emerald-50/50 py-12 border-b border-gray-100">
@@ -130,20 +137,20 @@ export default function MostLovedPage() {
           <div className="text-center py-16 text-gray-500">No products found.</div>
         ) : (
           <div>
-  <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-6">
-    {mostLoved.slice(0, visibleCount).map(renderProductCard)}
-  </div>
-  {visibleCount < mostLoved.length && (
-    <div className="flex justify-center mt-6">
-      <button
-        onClick={() => setVisibleCount(prev => Math.min(prev + 20, mostLoved.length))}
-        className="px-4 py-2 bg-emerald-600 text-white rounded hover:bg-emerald-700 transition"
-      >
-        View More
-      </button>
-    </div>
-  )}
-</div>
+            <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-6">
+              {mostLoved.slice(0, visibleCount).map(renderProductCard)}
+            </div>
+            {visibleCount < mostLoved.length && (
+              <div className="flex justify-center mt-6">
+                <button
+                  onClick={() => setVisibleCount(prev => Math.min(prev + 20, mostLoved.length))}
+                  className="px-4 py-2 bg-emerald-600 text-white rounded hover:bg-emerald-700 transition"
+                >
+                  View More
+                </button>
+              </div>
+            )}
+          </div>
         )}
       </main>
 

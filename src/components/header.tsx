@@ -29,40 +29,8 @@ export function Header({
       {/* 1. Dharani Herbbals Serif Brand Logo with custom leaf SVG */}
       <a href="#" className="flex items-center gap-2.5 group shrink-0">
         {/* Customized exact match leaf emblem SVG */}
-        <svg 
-          viewBox="0 0 100 100" 
-          className="w-[42px] h-[42px] transform transition-transform duration-300 group-hover:scale-105"
-          fill="none" 
-          xmlns="http://www.w3.org/2000/svg"
-        >
+        <img src="/favicon.png" alt="" className="w-[50px] h-[50px] rounded-lg" />
           {/* Main green teardrop/shield shield backing */}
-          <path 
-            d="M50 90C72.0914 90 90 72.0914 90 50C90 12 50 10 50 10C50 10 10 12 10 50C10 72.0914 27.9086 90 50 90Z" 
-            fill="#7cb43d" 
-          />
-          {/* Darker green leaf partition */}
-          <path 
-            d="M50 10C50 10 10 12 10 50C10 68.3 22.3 83.7 39 88.5C39 88.5 50 60 50 10Z" 
-            fill="#569a30" 
-          />
-          {/* Top Leaf White outline vein */}
-          <path 
-            d="M32 30C45 32 58 45 62 60M32 30C28 42 35 55 45 68" 
-            stroke="white" 
-            strokeWidth="3.5" 
-            strokeLinecap="round" 
-            strokeLinejoin="round" 
-          />
-          {/* Bottom Leaf White outline vein */}
-          <path 
-            d="M48 40C58 42 68 53 72 66M48 40C44 50 49 61 57 72" 
-            stroke="white" 
-            strokeWidth="3.5" 
-            strokeLinecap="round" 
-            strokeLinejoin="round" 
-          />
-        </svg>
-
         <div className="flex flex-col">
           <span className="font-serif text-[21px] font-medium leading-[1.1] tracking-wide text-gray-800 flex items-start">
             Dharani

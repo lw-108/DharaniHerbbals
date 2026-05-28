@@ -9,17 +9,6 @@ interface Props {
   categories: Category[];
 }
 
-const DEFAULT_IMAGES: Record<string, string> = {
-  HAIR: "https://images.unsplash.com/photo-1527799881356-9a794c14b3d2?auto=format&fit=crop&q=80&w=300",
-  SKIN: "https://images.unsplash.com/photo-1556228720-195a672e8a03?auto=format&fit=crop&q=80&w=300",
-  BABY: "https://images.unsplash.com/photo-1519689680058-324335c77ebe?auto=format&fit=crop&q=80&w=300",
-  BEVERAGES: "https://images.unsplash.com/photo-1576092768241-dec231879fc3?auto=format&fit=crop&q=80&w=300",
-  BODY: "https://images.unsplash.com/photo-1607006342411-9a3363b6392c?auto=format&fit=crop&q=80&w=300",
-  FOOD: "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?auto=format&fit=crop&q=80&w=300",
-  "HEALTH & WELLNESS": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&q=80&w=300",
-  POOJAS: "https://images.unsplash.com/photo-1609137144814-7d2d3a3dcc4a?auto=format&fit=crop&q=80&w=300",
-};
-
 function formatCategoryName(name: string): string {
   const n = name.toUpperCase();
   if (n === "HAIR") return "Hair Care";
@@ -40,77 +29,78 @@ export default function ShopByCategory({ categories }: Props) {
       const originalCat = categories.find((c) => c.name.toUpperCase() === name);
       return {
         name: originalCat?.name || name,
-        image: originalCat?.image || DEFAULT_IMAGES[name] || "https://images.unsplash.com/photo-1546842931-886c185b4c8c?auto=format&fit=crop&q=80&w=300"
+        image: "/placeholder.svg"
       };
     });
 
-  // Triple the items to ensure the marquee exceeds viewport width and transitions seamlessly
-  const marqueeItems = [...uniqueCategories, ...uniqueCategories, ...uniqueCategories];
-
   return (
-    <section className="py-16 bg-emerald-50/30 border-t border-b border-emerald-100/50 relative overflow-hidden select-none">
-      <div className="max-w-7xl mx-auto px-6 text-center">
-        <h2 className="text-3xl font-extrabold text-gray-900 mb-2">Shop by Category</h2>
-        <p className="text-sm text-gray-500 mb-12 max-w-xl mx-auto">
-          Discover targeted herbal benefits organized cleanly by categories
-        </p>
-      </div>
+    <section className="py-16 bg-white relative">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-1">
+        {/* Header Section */}
+        <div className="text-center mb-12">
+          <div className="inline-flex items-center justify-center gap-2 mb-4">
+            <span className="w-8 h-px bg-emerald-600"></span>
+            <span className="text-emerald-700 font-semibold text-sm tracking-wide uppercase">Collections</span>
+            <span className="w-8 h-px bg-emerald-600"></span>
+          </div>
+          <h2 className="text-3xl md:text-4xl font-extrabold text-gray-900 mb-3">
+            Shop by <span className="text-emerald-700">Category</span>
+          </h2>
+          <p className="text-gray-500 max-w-md mx-auto">
+            Discover targeted herbal benefits organized cleanly by categories
+          </p>
+        </div>
 
-      {/* Infinite slow marquee container */}
-      <div className="w-full overflow-hidden py-2 relative">
-        {/* Left and Right beautiful faded color overlays for premium look */}
-        <div className="absolute left-0 top-0 bottom-0 w-16 md:w-32 bg-gradient-to-r from-white/90 to-transparent z-10 pointer-events-none" />
-        <div className="absolute right-0 top-0 bottom-0 w-16 md:w-32 bg-gradient-to-l from-white/90 to-transparent z-10 pointer-events-none" />
-
-        <div className="flex gap-10 md:gap-14 category-marquee w-max py-2">
-          {marqueeItems.map((cat, idx) => (
+        {/* Fixed 4x4 Grid Layout */}
+        <div className="grid grid-cols-2 sm:grid-cols-4 gap-5 md:gap-6 lg:gap-7">
+          {uniqueCategories.slice(0, 16).map((cat, idx) => (
             <Link
               key={`${cat.name}-${idx}`}
               to={`/shop?category=${encodeURIComponent(cat.name)}`}
-              className="flex flex-col items-center group shrink-0 transition-transform duration-300 hover:scale-105"
+              className="group relative flex flex-col items-center bg-white rounded-2xl p-4 sm:p-5 shadow-sm border border-gray-100 transition-all duration-300 hover:shadow-xl hover:shadow-emerald-100/40 hover:-translate-y-1"
             >
-              <div className="w-24 h-24 md:w-28 md:h-28 rounded-full border-4 border-white shadow-md overflow-hidden bg-white group-hover:border-emerald-500 group-hover:shadow-xl transition-all duration-300">
-                <img
-                  src={cat.image}
-                  alt={cat.name}
-                  className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
-                  draggable={false}
-                />
+              {/* Image Circle Container */}
+              <div className="relative">
+                <div className="w-20 h-20 sm:w-24 sm:h-24 md:w-28 md:h-28 rounded-full bg-gray-50 flex items-center justify-center transition-all duration-300 group-hover:bg-emerald-50 p-2 sm:p-3">
+                  <img
+                    src={cat.image}
+                    alt={cat.name}
+                    className="w-full h-full rounded-full object-cover transition-transform duration-500 group-hover:scale-105"
+                    draggable={false}
+                    loading="lazy"
+                  />
+                </div>
+                {/* Decorative ring on hover */}
+                <div className="absolute inset-0 rounded-full border-2 border-emerald-400/0 group-hover:border-emerald-400/30 transition-all duration-300 scale-105"></div>
               </div>
-              <span className="text-[13px] md:text-sm font-bold text-gray-700 mt-4 group-hover:text-emerald-700 transition-colors uppercase tracking-wider">
+
+              {/* Category Name */}
+              <span className="text-xs sm:text-sm md:text-base font-bold text-gray-800 mt-3 sm:mt-5 mb-1 group-hover:text-emerald-700 transition-colors text-center">
                 {formatCategoryName(cat.name)}
+              </span>
+
+              {/* Subtle divider + shop indicator */}
+              <div className="w-6 sm:w-8 h-px bg-gray-200 group-hover:w-8 sm:group-hover:w-12 group-hover:bg-emerald-600 transition-all duration-300 mb-1 sm:mb-2"></div>
+              <span className="text-[10px] sm:text-xs text-emerald-600 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                Shop Now →
               </span>
             </Link>
           ))}
         </div>
-      </div>
 
-      <div className="max-w-7xl mx-auto px-6 text-center mt-12">
-        <Link
-          to="/shop"
-          className="inline-flex items-center gap-2 px-8 py-3 bg-emerald-600 text-white font-bold rounded-full shadow-lg hover:bg-emerald-700 hover:shadow-emerald-200 transition-all text-sm"
-        >
-          Explore All Categories
-        </Link>
+        {/* View All Button */}
+        <div className="text-center mt-12">
+          <Link
+            to="/shop"
+            className="inline-flex items-center gap-2 px-6 sm:px-8 py-2.5 sm:py-3 bg-emerald-600 text-white font-semibold rounded-full shadow-md hover:shadow-lg hover:shadow-emerald-200 hover:bg-emerald-700 transition-all duration-300 text-xs sm:text-sm tracking-wide"
+          >
+            Explore All Categories
+            <svg className="w-3 h-3 sm:w-4 sm:h-4 group-hover:translate-x-1 transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+            </svg>
+          </Link>
+        </div>
       </div>
-
-      {/* Styled self-contained slow animation */}
-      <style>{`
-        .category-marquee {
-          animation: category-scroll 45s linear infinite;
-        }
-        .category-marquee:hover {
-          animation-play-state: paused;
-        }
-        @keyframes category-scroll {
-          0% {
-            transform: translateX(0);
-          }
-          100% {
-            transform: translateX(-33.333%);
-          }
-        }
-      `}</style>
     </section>
   );
 }

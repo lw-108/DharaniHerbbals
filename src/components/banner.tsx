@@ -1,6 +1,7 @@
 import { useState, useRef, useEffect } from "react";
 import { Phone, Mail, Search, Globe, X, ArrowRight, CornerDownLeft, AlertCircle } from "lucide-react";
 import { type Product } from "@/lib/products-data";
+import { useNavigate, useLocation } from "react-router-dom";
 
 interface BannerProps {
   searchQuery: string;
@@ -17,6 +18,8 @@ export function Banner({
 }: BannerProps) {
   const [isFocused, setIsFocused] = useState(false);
   const containerRef = useRef<HTMLDivElement>(null);
+  const navigate = useNavigate();
+  const location = useLocation();
 
   // Close dropdown when clicking outside
   useEffect(() => {
@@ -28,6 +31,24 @@ export function Banner({
     document.addEventListener("mousedown", handleClickOutside);
     return () => document.removeEventListener("mousedown", handleClickOutside);
   }, []);
+
+  const handleSearchChange = (val: string) => {
+    setSearchQuery(val);
+    setIsFocused(true);
+    // Land on products page if on informational subpages
+    if (location.pathname !== "/" && location.pathname !== "/shop") {
+      navigate(`/shop?search=${encodeURIComponent(val)}`);
+    }
+  };
+
+  const handleProductSelect = (product: Product) => {
+    onProductClick(product);
+    setIsFocused(false);
+    // If not on a products page, navigate to shop showing that product
+    if (location.pathname !== "/" && location.pathname !== "/shop") {
+      navigate(`/shop?category=${encodeURIComponent(product.category)}`);
+    }
+  };
 
   return (
     <div className="w-full bg-[#1eab59] text-white text-xs py-2 px-4 md:px-8 flex flex-col xl:flex-row justify-between items-center gap-3 border-b border-emerald-600/10 shadow-sm relative z-50 transition-all duration-300">
@@ -66,14 +87,20 @@ export function Banner({
             <input
               type="text"
               value={searchQuery}
-              onChange={(e) => {
-                setSearchQuery(e.target.value);
-                setIsFocused(true);
+              onChange={(e) => handleSearchChange(e.target.value)}
+              onKeyDown={(e) => {
+                if (e.key === "Enter") {
+                  setIsFocused(false);
+                  if (location.pathname !== "/" && location.pathname !== "/shop") {
+                    navigate(`/shop?search=${encodeURIComponent(searchQuery)}`);
+                  }
+                }
               }}
               onFocus={() => setIsFocused(true)}
               placeholder="Search products..."
               className="w-full bg-transparent text-sm text-gray-800 placeholder:text-gray-400 focus:outline-none pr-7"
             />
+
 
             {searchQuery && (
               <button
@@ -108,10 +135,7 @@ export function Banner({
                   filteredProducts.slice(0, 5).map((product) => (
                     <div
                       key={product.id}
-                      onClick={() => {
-                        onProductClick(product);
-                        setIsFocused(false);
-                      }}
+                      onClick={() => handleProductSelect(product)}
                       className="p-3 flex items-center justify-between hover:bg-emerald-50/40 cursor-pointer transition-colors group"
                     >
                       <div className="flex items-center gap-3">

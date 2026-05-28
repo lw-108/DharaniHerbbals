@@ -1,14 +1,22 @@
-import path from "path"
-import tailwindcss from "@tailwindcss/vite"
-import react from "@vitejs/plugin-react"
-import { defineConfig } from "vite"
+import path from "path";
+import react from "@vitejs/plugin-react";
+import tailwindcss from "@tailwindcss/vite";
+import { defineConfig } from "vite";
 
-// https://vite.dev/config/
+// import compress from "vite-plugin-compress"; // removed due to incompatibility
+// import { VitePWA } from "vite-plugin-pwa"; // PWA disabled for faster build
+
 export default defineConfig({
-  plugins: [react(), tailwindcss()],
+  plugins: [
+    react(),
+    tailwindcss(),
+
+
+    // compress({}) // removed due to incompatibility
+  ],
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "./src"),
     },
   },
-})
+});

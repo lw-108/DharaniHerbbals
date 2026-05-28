@@ -21,6 +21,7 @@ export function AuthModal({ open, onOpenChange, defaultMode = "signin", onSucces
   const [name, setName] = React.useState("");
   const [email, setEmail] = React.useState("");
   const [password, setPassword] = React.useState("");
+  const [mobile, setMobile] = React.useState("");
   const [showPassword, setShowPassword] = React.useState(false);
   const [loading, setLoading] = React.useState(false);
   const [success, setSuccess] = React.useState(false);
@@ -34,6 +35,7 @@ export function AuthModal({ open, onOpenChange, defaultMode = "signin", onSucces
       setSuccess(false);
       setName("");
       setEmail("");
+      setMobile("");
       setPassword("");
     }
   }, [open, defaultMode]);
@@ -57,6 +59,10 @@ export function AuthModal({ open, onOpenChange, defaultMode = "signin", onSucces
       setError("Please enter your full name.");
       return false;
     }
+    if (isSignUp && !mobile.trim()) {
+      setError("Please enter your mobile number.");
+      return false;
+    }
     return true;
   };
 
@@ -75,6 +81,7 @@ export function AuthModal({ open, onOpenChange, defaultMode = "signin", onSucces
     onSuccess({
       name: isSignUp ? name.trim() : email.split("@")[0],
       email: email.trim(),
+      ...(isSignUp && { mobile: mobile.trim() }),
     });
     onOpenChange(false);
   };
@@ -152,6 +159,15 @@ export function AuthModal({ open, onOpenChange, defaultMode = "signin", onSucces
                     onChange={(e) => setName(e.target.value)}
                     className="h-11 rounded-xl border-border/60 bg-background/60 focus-visible:ring-primary/40 text-sm"
                     autoComplete="name"
+                  />
+                  <Input
+                    id="auth-mobile"
+                    type="tel"
+                    placeholder="e.g. +91-9876543210"
+                    value={mobile}
+                    onChange={(e) => setMobile(e.target.value)}
+                    className="h-11 rounded-xl border-border/60 bg-background/60 focus-visible:ring-primary/40 text-sm"
+                    autoComplete="tel"
                   />
                 </div>
               )}

@@ -27,52 +27,11 @@ export const CATEGORIES = ["All", "Hair Care", "Skin Care", "Baby Care", "Wellne
 export const BRANDS = ["All Brands", "MAKIL", "RAMCARE", "DIVYAM", "VANA ARASI", "VEDAN AMUTHU", "VEDAN", "ATHIYAMAN", "NIRAI HOMAM"];
 
 export const PRODUCT_TYPES = ["All Types", "New Launch", "Best Selling", "deals", "trending", "hot", "popular"];
-
-const CATEGORY_IMAGES: Record<string, string[]> = {
-  HAIR: [
-    "https://images.unsplash.com/photo-1608248597279-f99d160bfcbc?auto=format&fit=crop&q=80&w=600",
-    "https://images.unsplash.com/photo-1527799881356-9a794c14b3d2?auto=format&fit=crop&q=80&w=600",
-    "https://images.unsplash.com/photo-1535585209827-a15fcdbc4c2d?auto=format&fit=crop&q=80&w=600"
-  ],
-  SKIN: [
-    "https://images.unsplash.com/photo-1556228720-195a672e8a03?auto=format&fit=crop&q=80&w=600",
-    "https://images.unsplash.com/photo-1601049541289-9b1b7bbbfe19?auto=format&fit=crop&q=80&w=600",
-    "https://images.unsplash.com/photo-1598440947619-2c35fc9aa908?auto=format&fit=crop&q=80&w=600"
-  ],
-  BABY: [
-    "https://images.unsplash.com/photo-1515488042361-404e9250afef?auto=format&fit=crop&q=80&w=600",
-    "https://images.unsplash.com/photo-1519689680058-324335c77ebe?auto=format&fit=crop&q=80&w=600"
-  ],
-  BEVERAGES: [
-    "https://images.unsplash.com/photo-1576092768241-dec231879fc3?auto=format&fit=crop&q=80&w=600",
-    "https://images.unsplash.com/photo-1597481499750-3e6b22637e12?auto=format&fit=crop&q=80&w=600",
-    "https://images.unsplash.com/photo-1544787219-7f47ccb76574?auto=format&fit=crop&q=80&w=600"
-  ],
-  BODY: [
-    "https://images.unsplash.com/photo-1607006342411-9a3363b6392c?auto=format&fit=crop&q=80&w=600",
-    "https://images.unsplash.com/photo-1546554137-f86b9593a222?auto=format&fit=crop&q=80&w=600"
-  ],
-  FOOD: [
-    "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?auto=format&fit=crop&q=80&w=600",
-    "https://images.unsplash.com/photo-1505576399279-565b52d4ac71?auto=format&fit=crop&q=80&w=600",
-    "https://images.unsplash.com/photo-1540420773420-3366772f4999?auto=format&fit=crop&q=80&w=600"
-  ],
-  "HEALTH & WELLNESS": [
-    "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&q=80&w=600",
-    "https://images.unsplash.com/photo-1611080626919-7cf5a9dbab5b?auto=format&fit=crop&q=80&w=600",
-    "https://images.unsplash.com/photo-1584017911766-d451b3d0e843?auto=format&fit=crop&q=80&w=600"
-  ],
-  POOJAS: [
-    "https://images.unsplash.com/photo-1609137144814-7d2d3a3dcc4a?auto=format&fit=crop&q=80&w=600",
-    "https://images.unsplash.com/photo-1534447677768-be436bb09401?auto=format&fit=crop&q=80&w=600"
-  ]
-};
-
-function getImageUrl(category: string, id: number): string {
-  const images = CATEGORY_IMAGES[category] || [
-    "https://images.unsplash.com/photo-1546842931-886c185b4c8c?auto=format&fit=crop&q=80&w=600"
-  ];
-  return images[id % images.length];
+// Removed CATEGORY_IMAGES - using placeholder images
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
+function getImageUrl(_category: string, _id: number): string {
+  // Use a static placeholder for all product images (except carousel images)
+  return "/placeholder.svg";
 }
 
 function getBotanicalName(name: string): string {

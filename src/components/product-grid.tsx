@@ -104,7 +104,7 @@ export function ProductGrid({
             {/* Header badges inside image */}
             <div className="relative aspect-square overflow-hidden bg-muted/20">
               <img
-                src={product.imageUrl}
+                src="/placeholder.svg"
                 alt={product.name}
                 className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
               />
